@@ -17,7 +17,7 @@
 \lstset{language=R}
 
 \logo{\includegraphics[width=1.5cm]{553400.jpg}}
-\author{Bradley, Clemens Ehlich}
+\author{Bradley Mackay, Clemens Ehlich}
 \title[Short Title]{R-Packages}
 \subtitle{Statistics, Visualization and more using R}
 \institute{NAWI PLUS}
@@ -26,11 +26,12 @@
 
 
 \begin{document}
-	\metroset{block=fill}
+	%\metroset{block=fill}
 	
 %Titelblatt
 
 	\begin{frame}
+	
 		\titlepage
 	\end{frame}
 
@@ -76,12 +77,11 @@
 
 
 %Folie_3
-	
-	\begin{frame}[t]{1.1 What's a package?}
+		\begin{frame}[t]{1.1 What's a package?}
 				
 		\begin{itemize}
 			\item R packages are collections of functions and data sets  
-			\item the extand the basic functionalities or add new ones
+			\item they extend the basic functionalities or add new ones
 			\item mostly developed by the community itself 
 			
 			
@@ -105,7 +105,7 @@
 			\end{itemize}
 			\item packages form interfaces to:
 			\begin{itemize}
-				\item[--] other software and its file formats (foreign, caffe, RQGIS, ...)
+				\item[--] other software and their file formats (foreign, caffe, RQGIS, ...)
 				\item[--] databases (RODBC, RPostgreSQL, ...)
 				\item[--] other programming languages (Rcpp, RPython, ...)
 				\item[--] webservices (Rfacebook, RGoogleAnalytics, ...)
@@ -144,7 +144,7 @@
 		\item The most comfortable way is to use \textit{RDocumentation}, because you can search more than 19.000 CRAN, Bioconductor and GitHub packages at onces.
 	
 			\begin{itemize}
-				\item[] https://www.rdocumentation.org/ als available as a package
+				\item[] https://www.rdocumentation.org/ also available as a package
 			\end{itemize}
 			
 	\end{itemize}
@@ -154,7 +154,7 @@
 
 
 
-%Folie_6
+%%Folie_6
 
 
 \begin{frame}[t]{1.4 Install, Deinstall, Update}
@@ -186,7 +186,7 @@
 
 
 
-%Folie_7
+%%Folie_7
 
 
 \begin{frame}[t]{1.4.1 Installing packages via devtools}
@@ -206,7 +206,7 @@
 \end{frame}
 
 
-%Folie_7
+%%Folie_7
 
 
 \begin{frame}[t]{1.4.2 Installing packages via devtools}
@@ -278,9 +278,9 @@ devtools::install\_github("hadley/babynames")
 
 
 
-%Folie_7
+%%Folie_7
 
-\begin{frame}[t]{2.1.0 Strugture of a package?}
+\begin{frame}[t]{2.1.0 Structure of a package?}
 	
 	
 	
@@ -293,11 +293,7 @@ devtools::install\_github("hadley/babynames")
 	
 \end{frame}
 
-
-
-
-
-\begin{frame}[t]{2.1 Strugture of a package?}
+\begin{frame}[t]{2.1 Structure of a package?}
 	
 	
 	\begin{figure}
@@ -309,14 +305,6 @@ devtools::install\_github("hadley/babynames")
 	
 	
 \end{frame}
-
-
-
-
-
-
-
-
 
 \begin{frame}[t]{2.1.1 Description File}
 	
@@ -331,16 +319,6 @@ devtools::install\_github("hadley/babynames")
 	
 \end{frame}
 
-
-
-
-
-
-
-
-
-
-
 \begin{frame}[t]{2.1.1 Description File}
 	
 	\begin{itemize}
@@ -351,7 +329,7 @@ devtools::install\_github("hadley/babynames")
 			\item  list of necessary packages (and also package versions)
 			\item "LinkingTo" a Package - if you want to use c or c++ code from another package
 		\end{itemize}
-		\item Autor	
+		\item Author	
 		\item License (MIT, GPL-2, ...)
 		
 	\end{itemize}
@@ -380,9 +358,9 @@ devtools::install\_github("hadley/babynames")
 \begin{frame}[t]{2.1.2 Namespace}
 	
 	\begin{itemize}
-		\item With NAMESPACE you define  the way in which your package interacting with other packages. For Example, to:
+		\item With NAMESPACE you define  the way in which your package interacts with other packages. For Example, to:
 		\begin{itemize}
-			\item ensure that other	packages won’t	interfere	with the own code 
+			\item ensure that other	packages won’t	interfere	with the code you include 
 			\item	your code	won’t	interfere	with	other	packages 	
 			\item and	that	your	package	works	regardless	of	the
 			environment	in	which	it’s	run
@@ -421,7 +399,7 @@ devtools::install\_github("hadley/babynames")
 \begin{frame}[t]{2.1.3 R-Functions}
 	
 	\begin{itemize}
-		\item a good Documentation	is	one	of	the	most	important	aspects	of	a	good package
+		\item  Good documentation	is	one	of	the	most	important	aspects	of	a	good package
 	
 		
 			
@@ -511,7 +489,7 @@ devtools::install\_github("hadley/babynames")
 \begin{frame}[t]{2.1.4 Object Documentation and Manuals}
 	
 	\begin{itemize}
-		\item a good Documentation	is	one	of	the	most	important	aspects	of	a	good package
+		\item  Good Documentation	is	one	of	the	most	important	aspects	of	a	good package
 		\begin{itemize}
 			\item Documenting	Functions, 	Classes,	Generics and	Methods
 			\item Documenting	Datasets
@@ -589,10 +567,10 @@ devtools::install\_github("hadley/babynames")
 \begin{frame}[t]{2.2.2 Vignettes (optional)}
 	
 	\begin{itemize}
-		\item  vignettes ar a long-form guide to your package
-		\item  describes a porblem like a book	chapter	or	an	academic paper
+		\item  vignettes are a long-form guide to your package
+		\item  describes a problem like a book	chapter	or	an	academic paper
 		\item For Example: https://cran.r-project.org/web/packages/dplyr/vignettes/colwise.html
-		\item elegant way to build a vignette is to use RMarkdown and Knitr.  
+		\item The elegant way to build a vignette is to use RMarkdown and Knitr.  
 		\item Workflow: 
 				
 		\begin{enumerate}
@@ -626,7 +604,7 @@ devtools::install\_github("hadley/babynames")
 
 
 
-%Folie_x
+%%Folie_x
 
 \begin{frame}[t]{3. Best Practices - A Quickstart Guide for own packages }
 	
@@ -663,8 +641,49 @@ devtools::install\_github("hadley/babynames")
 \end{frame}
 
 
+\section{Creating a Package Yourself}
+
+\begin{frame}{Packages we will be using}
+
+\begin{columns}
+
+\begin{column}{0.20\textwidth}
+\begin{center}
+\includegraphics[width=1\textwidth]{devtools}
+
+\end{center}
+\end{column}
 
 
+
+\begin{column}{0.20\textwidth}  
+\begin{center}
+\includegraphics[width=1\textwidth]{usethis} 
+
+\end{center}
+\end{column}
+
+\begin{column}{0.20\textwidth}  
+\begin{center}
+\includegraphics[width=1\textwidth]{roxygen2}
+\end{center}
+\end{column}
+\pause
+\begin{column}{0.20\textwidth}  
+\begin{center}
+\includegraphics[width=1\textwidth]{newnice}
+\end{center}
+\end{column}
+
+\begin{column}{0.20\textwidth}  
+\begin{center}
+\includegraphics[width=1\textwidth]{shrek_hex}
+\end{center}
+\end{column}
+
+\end{columns}
+
+\end{frame}
 
 
 
