@@ -1,32 +1,16 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
 
-hello <- function() {
-  print("Hello, world!")
-}
-
+# Here is the what_is function
 
 
 #' Check if your number is nice or if it's trash- you've always wanted to know, and now you can!
 #'
 #' @param x A numeric value between 0 - 2000. Don't go out of those parameters, or else!
 #' @return Returns a peer-reviewed, ABSOLUTELY final verdict on whether your number is nice or not.
-#' @example NiceNum(x)
+#' @importFrom dplyr between
+#' @example what_is(x)
 #' @export
 #'
-NiceNum<- function(x){
+what_is<- function(x){
   if (dplyr::between(x, 0, 49)) {
     print(paste(x,"is a pleasant number"))
   }
@@ -68,3 +52,52 @@ NiceNum<- function(x){
     print(paste("Can't you count?",x,"is out of range so I'm not telling you if it's a nice number or not"))
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+best_is <- function(){
+
+  print(cat("
+
+
+  1111111     999999999          888888888          888888888
+ 1::::::1   99:::::::::99      88:::::::::88      88:::::::::88
+1:::::::1 99:::::::::::::99  88:::::::::::::88  88:::::::::::::88
+111:::::19::::::99999::::::98::::::88888::::::88::::::88888::::::8
+   1::::19:::::9     9:::::98:::::8     8:::::88:::::8     8:::::8
+   1::::19:::::9     9:::::98:::::8     8:::::88:::::8     8:::::8
+   1::::1 9:::::99999::::::9 8:::::88888:::::8  8:::::88888:::::8
+   1::::l  99::::::::::::::9  8:::::::::::::8    8:::::::::::::8
+   1::::l    99999::::::::9  8:::::88888:::::8  8:::::88888:::::8
+   1::::l         9::::::9  8:::::8     8:::::88:::::8     8:::::8
+   1::::l        9::::::9   8:::::8     8:::::88:::::8     8:::::8
+   1::::l       9::::::9    8:::::8     8:::::88:::::8     8:::::8
+111::::::111   9::::::9     8::::::88888::::::88::::::88888::::::8
+1::::::::::1  9::::::9       88:::::::::::::88  88:::::::::::::88
+1::::::::::1 9::::::9          88:::::::::88      88:::::::::88
+11111111111199999999             888888888          888888888
+
+"))
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
