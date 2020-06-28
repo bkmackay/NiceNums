@@ -15,3 +15,6 @@ Returns a peer-reviewed, ABSOLUTELY final verdict on whether your number is nice
 \description{
 Check if your number is nice or if it's trash- you've always wanted to know, and now you can!
 }
+\examples{
+what_is(x)
+}

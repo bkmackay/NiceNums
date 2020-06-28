@@ -7,7 +7,7 @@
 #' @param x A numeric value between 0 - 2000. Don't go out of those parameters, or else!
 #' @return Returns a peer-reviewed, ABSOLUTELY final verdict on whether your number is nice or not.
 #' @importFrom dplyr between
-#' @example what_is(x)
+#' @examples what_is(x)
 #' @export
 #'
 what_is<- function(x){
