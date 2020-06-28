@@ -2,8 +2,14 @@ Package: NiceNums
 Type: Package
 Title: Tells you if your number is nice, or if it's not
 Version: 0.1.0
-Author: Brad Mackay
-Maintainer: <bradley.mackay@sbg.ac.at>
+Authors@R: c(person(given = "Bradley",
+           family = "Mackay",
+           role = c("aut", "cre"),
+           email = "bradley.mackay@sbg.ac.at"),
+          person(given = "Clemens",
+           family = "Ehlich",
+           role = "ctb"))
+Maintainer: Bradley Mackay <bradley.mackay@sbg.ac.at>
 Description: Have you ever wanted to know if a number is nice or not? Well look no further!
 License: MIT + file LICENSE
 Encoding: UTF-8
