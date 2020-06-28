@@ -12,6 +12,10 @@
 
 \usepackage{graphicx}
 
+\usepackage{caption}
+	
+
+
 \usepackage{listings}
 \lstset{numbers=left, numberstyle=\tiny, numbersep=5pt}
 \lstset{language=R}
@@ -37,31 +41,63 @@
 
 %Folie_2
 
-	\begin{frame}[t]{Syllabus}
+	\begin{frame}[t]{Roadmap}
 	
+	 	\begin{enumerate}
+	 		\item[I.] The Theory
+	 	\end{enumerate}
 		\begin{enumerate}
-			\item One
+			\item Basics
+		
 			\begin{enumerate}
-				\item Two
-				\item Three
-				\item Four
+				\item What's a package?
+				\item Why Packages?
+				\item Where can you find packages?
+				\item Install, Deinstall, Update
+					\begin{enumerate}
+					\item Installing packages via devtools
+					\item Using devtools commands for installation
+				\end{enumerate}
 			\end{enumerate}
-			\item Five
-			\item Six
+		
 		\end{enumerate}
 		
 	\end{frame}
 
 
+\begin{frame}[t]{Roadmap}
+	
+	\begin{enumerate}
+		\item [2.] Making our own package
+		
+		\begin{enumerate}
+			\item [2.1] Good Guide for starting
+			\item [2.2]Components of a package
+			\item [2.3]Description File
+			\item [2.4]Namspace
+			\item [2.5]R-Functions
+			\item [2.6]Object Documentation and Manuals
+			\item [2.7]Data, Vignettes, Demo
+		\end{enumerate}
+		
+		\item [3] Sources
+		\item [II.]Creating a Package Yourself
+		
+	\end{enumerate}
+	
+\end{frame}
 
-\begin{frame}[t]{1. Introduction}
+\section{I. The Theory}
+
+
+\begin{frame}[t]{1. Basics}
 	
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{packages}
-%	\caption{}
-	\label{fig:packages}
+	\caption{Package Universe}
+%	\label{fig:packages}
 \end{figure}
 
 	
@@ -236,9 +272,9 @@ devtools::install\_github("hadley/babynames")
 	
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.9\linewidth]{user}
+		\includegraphics[width=0.7\linewidth]{user}
 		
-		%\caption{}
+		\caption{pack a pack}
 		\label{fig:packages}
 	\end{figure}
 	
@@ -260,9 +296,9 @@ devtools::install\_github("hadley/babynames")
 
 	\begin{figure}
 	\centering
-	\includegraphics[width=0.3\linewidth]{hadley}
-	\includegraphics[width=0.3\linewidth]{cover}
-	%\caption{}
+	\includegraphics[width=0.25\linewidth]{hadley}
+	\includegraphics[width=0.25\linewidth]{cover}
+	\caption{H. Wickham and his Book}
 	\label{fig:packages}
 	\end{figure}
 
@@ -280,46 +316,35 @@ devtools::install\_github("hadley/babynames")
 
 %%Folie_7
 
-\begin{frame}[t]{2.1.0 Structure of a package?}
-	
-	
-	
-	\begin{itemize}
-		\item 
-		\item a package is a directory of files which extend 
-	
-	
-	\end{itemize}
-	
-\end{frame}
 
-\begin{frame}[t]{2.1 Structure of a package?}
+
+\begin{frame}[t]{2.2 Components of a package}
 	
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{stott}
-		%	\caption{}
+		\caption{package structure}
 		\label{fig:packages}
 	\end{figure}
 	
 	
 \end{frame}
 
-\begin{frame}[t]{2.1.1 Description File}
+\begin{frame}[t]{2.3 Description File}
 	
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Desc}
-		%	\caption{}
+		\caption{Description File}
 		\label{fig:packages}
 	\end{figure}
 	
 	
 \end{frame}
 
-\begin{frame}[t]{2.1.1 Description File}
+\begin{frame}[t]{2.3 Description File}
 	
 	\begin{itemize}
 		\item Title	
@@ -339,13 +364,13 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.1.2 Namespace}
+\begin{frame}[t]{2.4 Namespace}
 	
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Names}
-		%	\caption{}
+		\caption{Namespace}
 		\label{fig:packages}
 	\end{figure}
 	
@@ -355,7 +380,7 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.1.2 Namespace}
+\begin{frame}[t]{2.4 Namespace}
 	
 	\begin{itemize}
 		\item With NAMESPACE you define  the way in which your package interacts with other packages. For Example, to:
@@ -378,13 +403,13 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.1.3 R-Functions}
+\begin{frame}[t]{2.5 R-Functions}
 	
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Rfunc}
-		%	\caption{}
+		\caption{R-Functions}
 		\label{fig:packages}
 	\end{figure}
 	
@@ -396,11 +421,11 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.1.3 R-Functions}
+\begin{frame}[t]{2.5 R-Functions}
 	
 	\begin{itemize}
-		\item  Good documentation	is	one	of	the	most	important	aspects	of	a	good package
-	
+		\item  include the functions and the R-Code itself
+		\item with rcpp-package its posible to write C or C++ Code
 		
 			
 	\end{itemize}
@@ -468,13 +493,13 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.1.4 Object Documentation and Manuals}
+\begin{frame}[t]{2.6 Object Documentation and Manuals}
 	
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Manu}
-		%	\caption{}
+		\caption{Object Documentation and Manual}
 		\label{fig:packages}
 	\end{figure}
 	
@@ -486,7 +511,7 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.1.4 Object Documentation and Manuals}
+\begin{frame}[t]{2.6 Object Documentation and Manuals}
 	
 	\begin{itemize}
 		\item  Good Documentation	is	one	of	the	most	important	aspects	of	a	good package
@@ -521,13 +546,13 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.2. Data, Vignettes, Demo}
+\begin{frame}[t]{2.7 Data, Vignettes, Demo}
 	
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{opt}
-		%	\caption{}
+		\caption{Data, Vignettes, Demo}
 		\label{fig:packages}
 	\end{figure}
 	
@@ -543,7 +568,7 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.2.1 Data - External Input (optional)}
+\begin{frame}[t]{2.7 Data - External Input (optional)}
 	
 	\begin{itemize}
 		\item to	include	own data	in	a	package
@@ -564,7 +589,7 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.2.2 Vignettes (optional)}
+\begin{frame}[t]{2.7 Vignettes (optional)}
 	
 	\begin{itemize}
 		\item  vignettes are a long-form guide to your package
@@ -586,7 +611,7 @@ devtools::install\_github("hadley/babynames")
 
 
 
-\begin{frame}[t]{2.2.3 Demo (optional)}
+\begin{frame}[t]{2.7 Demo (optional)}
 	
 	\begin{itemize}
 		\item Demos	are	like	examples
@@ -606,42 +631,23 @@ devtools::install\_github("hadley/babynames")
 
 %%Folie_x
 
-\begin{frame}[t]{3. Best Practices - A Quickstart Guide for own packages }
-	
-	\begin{block}{Das ist ein Block}
-		Inhalt...
-	\end{block}
+
+
+\begin{frame}[t]{3. Sources }
 	
 	\begin{enumerate}
-		\item hallo
-		\item hallo2
-	\end{enumerate}
-
-\end{frame}
-
-
-
-
-
-
-
-
-
-\begin{frame}[t]{xxx. Sources }
-	
-
-	
-	\begin{enumerate}
-		\item https://rtask.thinkr.fr/wp-content/uploads/user2019\_create\_package\_with\_pkg.png
-		\item http://r-pkgs.had.co.nz/cover.png
-		\item https://methodsblog.files.wordpress.com/2015/11/stott-1.jpg?w=1024\&h=464
-		\item http://r-pkgs.had.co.nz/
+	\leftskip3em	\item [Fig.1:] 			https://www.elasticfeed.com/\linebreak 	ab4da588234cfa0cabc5373f0b69ae5e/
+		\item[Fig.2:] https://rtask.thinkr.fr/wp-content/\linebreak uploads/user2019\_create\_package\_with\_pkg.png
+		\item [Fig.3:] http://r-pkgs.had.co.nz/cover.png 
+		\item [Fig.3:]https://www.mango-solutions.com/wp-content/\linebreak uploads/2018/03/Hadley-Wickham\_web.png
+		\item [Fig.4-9:] https://methodsblog.files.wordpress.com/2015/11/\linebreak stott-1.jpg?w=1024\&h=464
+		
 	\end{enumerate}
 	
 \end{frame}
 
 
-\section{Creating a Package Yourself}
+\section{II. Creating a Package Yourself}
 
 \begin{frame}{Packages we will be using}
 
