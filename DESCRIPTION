@@ -21,3 +21,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/bkmackay/NiceNums/blob/master/docs/index.html
