@@ -7,8 +7,9 @@
 #' @param x A numeric value between 0 - 2000. Don't go out of those parameters, or else!
 #' @return Returns a peer-reviewed, ABSOLUTELY final verdict on whether your number is nice or not.
 #' @importFrom dplyr between
-#' @examples what_is(x)
+#'
 #' @export
+#' @examples what_is(16)
 #'
 what_is<- function(x){
   if (dplyr::between(x, 0, 49)) {
