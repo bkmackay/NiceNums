@@ -1,1 +1,2 @@
-\beamer@sectionintoc {1}{Creating a Package Yourself}{28}{0}{1}
+\beamer@sectionintoc {1}{I. The Theory}{4}{0}{1}
+\beamer@sectionintoc {2}{II. Creating a Package Yourself}{28}{0}{2}
