@@ -17,3 +17,6 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(NiceNums)
 ```
+
+## A tutorial for exploring the functionality of your package
+
