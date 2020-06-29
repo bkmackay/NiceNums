@@ -2,3 +2,7 @@
 ^\.Rproj\.user$
 ^README\.Rmd$
 
+^docs$
+^docs,Beamer_Vorlage$
+^pkgdown$
+^Beamer_Vorlage$

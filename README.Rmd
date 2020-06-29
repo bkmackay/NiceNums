@@ -44,7 +44,7 @@ How about 1960?
 what_is(1960)
 ```
 
-As you can see, there is a 'best number' for you to find! There is also a secondary function hidden in the package files which tells you what the best number is. Your task will be to update the documentation  and roxygenise the function so it appears in the package.
+As you can see, there is an amazing number for you to find! There is also a secondary function hidden in the package files which tells you what the best number is. Your task will be to update the documentation and roxygenise the function so it appears in the package.
 
 
 

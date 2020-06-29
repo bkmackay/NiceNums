@@ -4,10 +4,7 @@
 # NiceNums <img src='man/figures/logo.png' align="right" height="119" />
 
 <!-- badges: start -->
-![License](https://img.shields.io/github/license/bkmackay/NiceNums?style=plastic)
-![contributors](https://img.shields.io/github/contributors/bkmackay/NiceNums)
-![last commit](https://img.shields.io/github/last-commit/bkmackay/NiceNums)
-![pull requests](https://img.shields.io/github/issues-pr-raw/bkmackay/NiceNums)
+
 <!-- badges: end -->
 
 The goal of NiceNums is to provide information about the numbers between
@@ -42,7 +39,7 @@ what_is(1960)
 #> [1] "1960 is ok but You're getting closer to a really good number"
 ```
 
-As you can see, there is a ‘best number’ for you to find\! There is also
-a secondary function hidden in the package files which tells you what
-the best number is. Your task will be to update the documentation and
-roxygenise the function so it appears in the package.
+As you can see, there is an amazing number for you to find\! There is
+also a secondary function hidden in the package files which tells you
+what the best number is. Your task will be to update the documentation
+and roxygenise the function so it appears in the package.
