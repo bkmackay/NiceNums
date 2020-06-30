@@ -1,0 +1,248 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Csárdi%
+}{%
+Csárdi%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+cranlogs}
+\APACinsertmetastar {%
+cranlogs}%
+\begin{APACrefauthors}%
+Csárdi, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {cranlogs: Download Logs from the 'RStudio' 'CRAN'
+  Mirror} {cranlogs: Download logs from the 'rstudio' 'cran' mirror}{\BBCQ}\
+  [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=cranlogs}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 2.1.1}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Eddelbuettel%
+\ \BBA {} Balamuta%
+}{%
+Eddelbuettel%
+\ \BBA {} Balamuta%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Rcpp}
+\APACinsertmetastar {%
+Rcpp}%
+\begin{APACrefauthors}%
+Eddelbuettel, D.%
+\BCBT {}\ \BBA {} Balamuta, J\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{aug}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Extending extit{R} with extit{C++}: A Brief
+  Introduction to extit{Rcpp}}} {{Extending extit{R} with extit{C++}: A Brief
+  Introduction to extit{Rcpp}}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PeerJ Preprints}{5}{}{e3188v1}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.7287/peerj.preprints.3188v1}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.7287/peerj.preprints.3188v1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ganz%
+, Csárdi%
+, Hester%
+, Lewis%
+\BCBL {}\ \BBA {} Tatman%
+}{%
+Ganz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+available}
+\APACinsertmetastar {%
+available}%
+\begin{APACrefauthors}%
+Ganz, C.%
+, Csárdi, G.%
+, Hester, J.%
+, Lewis, M.%
+\BCBL {}\ \BBA {} Tatman, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {available: Check if the Title of a Package is Available,
+  Appropriate and Interesting} {available: Check if the title of a package is
+  available, appropriate and interesting}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=available}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 1.0.4}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wickham%
+\ \BBA {} Bryan%
+}{%
+Wickham%
+\ \BBA {} Bryan%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+usethis}
+\APACinsertmetastar {%
+usethis}%
+\begin{APACrefauthors}%
+Wickham, H.%
+\BCBT {}\ \BBA {} Bryan, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {usethis: Automate Package and Project Setup} {usethis:
+  Automate package and project setup}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=usethis}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 1.6.1}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wickham%
+, Danenberg%
+, Csárdi%
+\BCBL {}\ \BBA {} Eugster%
+}{%
+Wickham%
+, Danenberg%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+roxygen2}
+\APACinsertmetastar {%
+roxygen2}%
+\begin{APACrefauthors}%
+Wickham, H.%
+, Danenberg, P.%
+, Csárdi, G.%
+\BCBL {}\ \BBA {} Eugster, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {roxygen2: In-Line Documentation for R} {roxygen2:
+  In-line documentation for r}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=roxygen2}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 7.1.0}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wickham%
+\ \BBA {} Hesselberth%
+}{%
+Wickham%
+\ \BBA {} Hesselberth%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+pkgdown}
+\APACinsertmetastar {%
+pkgdown}%
+\begin{APACrefauthors}%
+Wickham, H.%
+\BCBT {}\ \BBA {} Hesselberth, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {pkgdown: Make Static HTML Documentation for a Package}
+  {pkgdown: Make static html documentation for a package}{\BBCQ}\
+  [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=pkgdown}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 1.5.1}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wickham%
+, Hester%
+\BCBL {}\ \BBA {} Chang%
+}{%
+Wickham%
+, Hester%
+\BCBL {}\ \BBA {} Chang%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+devtools}
+\APACinsertmetastar {%
+devtools}%
+\begin{APACrefauthors}%
+Wickham, H.%
+, Hester, J.%
+\BCBL {}\ \BBA {} Chang, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {devtools: Tools to Make Developing R Packages Easier}
+  {devtools: Tools to make developing r packages easier}{\BBCQ}\
+  [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=devtools}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 2.3.0}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yu%
+}{%
+Yu%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+hexSticker}
+\APACinsertmetastar {%
+hexSticker}%
+\begin{APACrefauthors}%
+Yu, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {hexSticker: Create Hexagon Sticker in R} {hexsticker:
+  Create hexagon sticker in r}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{https://CRAN.R-project.org/package=hexSticker}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 0.4.7}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
